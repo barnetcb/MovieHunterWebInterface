@@ -6,26 +6,50 @@ body {
 
 .header {
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: red;
 }
 
 .header > .navbar {
+  text-align: center;
   width: 33%;
   margin: 10px;
   padding: 20px;
 }
 
 .header-form {
-  padding-top: 10%;
+  display: flex;
+  align-items: center;
 }
 
 .header-form > input {
+  font-size: 1.5em;
   width: 100%;
+}
+
+.header-form > input[type="submit"] {
+  font-size: 1.5em;
+  width: 20%;
+}
+
+#signUp {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6em;
+}
+
+#signUp:hover {
+  color: white;
 }
 
 .nav-links {
   display: inline-block;
-  float: right;
+  text-align: right;
+  width: 99%;
+  background-color: black;
+  margin: 0;
+  padding: 1%;
 }
 
 .nav-links li {
@@ -37,11 +61,12 @@ body {
 .nav-links li a {
   text-decoration: none;
   width: 100%;
-  padding: 6px;
+  padding: 1%;
   margin: 0;
   color: white;
 }
 
 .nav-links li a:hover {
-  background-color: black;
+  background-color: white;
+  color: black;
 }
