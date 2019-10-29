@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial scale=1">
     <link rel="stylesheet" href="/styles/main-styles.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
     <link rel="icon" href="/img/logo-icon.ico">
   </head>
   <body>
@@ -18,10 +20,10 @@
               <input type="text" name="text" class="search_box" placeholder="Search...">
               <input type="submit" value=">" class="search_box">
             </form>
-          </div>
-          <div class="navbar">
-              <a href="#" id="signUp">SIGN UP!</a>
-          </div>
+        </div>
+         <div class="navbar">
+              <button id="signUp">Sign Up</button>
+         </div>
          </div>
          <div class="nav- buttons">
              <ul class="nav-links">
@@ -31,8 +33,36 @@
          </div>
       </nav>
       <main>
+        <section class="newMovies">
+          <h2>In Theatres</h2>
+          <div class="Movies">
+            <div><img src="https://via.placeholder.com/150"/></div>
+            <div><img src="https://via.placeholder.com/150"/></div>
+            <div><img src="https://via.placeholder.com/150"/></div>
+            <div><img src="https://via.placeholder.com/150"/></div>
+            <div><img src="https://via.placeholder.com/150"/></div>
+            <div><img src="https://via.placeholder.com/150"/></div>
+          </div>
+          <hr noshade>
+        </section>
+        <section class="favMovies">
+          <h2>Favorite Movies</h2>
+          <div class="Movies">
+            <div><img src="https://via.placeholder.com/150"/></div>
+            <div><img src="https://via.placeholder.com/150"/></div>
+            <div><img src="https://via.placeholder.com/150"/></div>
+            <div><img src="https://via.placeholder.com/150"/></div>
+            <div><img src="https://via.placeholder.com/150"/></div>
+            <div><img src="https://via.placeholder.com/150"/></div>
+          </div>
+          <hr noshade>
+        </section>
       </main>
       <footer>
       </footer>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="/slick/slick.min.js"></script>
+      <script type="text/javascript" src="/js/main.js"></script>
   </body>
 </html>
